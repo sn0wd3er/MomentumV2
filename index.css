@@ -1,0 +1,126 @@
+ * {
+     color: white;
+ }
+ 
+ :root {
+     --main-color: black;
+ }
+ 
+ form {
+     text-align: center;
+ }
+ 
+ input {
+     position: relative;
+     top: -20px;
+     text-align: center;
+     color: var(--main-color);
+     height: 30px;
+     width: 400px;
+ }
+ 
+ input[type="text"] {
+     border: none;
+     background-color: white;
+     border-bottom: 5px solid white;
+ }
+ 
+ input::placeholder {
+     color: #6E6A6A;
+ }
+ 
+ h3 {
+     text-align: center;
+     font-size: 40px;
+     font-style: oblique 40deg;
+     margin: 40px 0px;
+ }
+ 
+ button {
+     position: relative;
+     top: -10px;
+     height: 50px;
+     width: 80px;
+     color: var(--main-color);
+     margin: 10px;
+     border-radius: 10%;
+     transition: all 0.4s ease-in-out;
+ }
+ 
+ button:hover {
+     background-color: black;
+     color: white;
+ }
+ 
+ ul li {
+     font-size: 35px;
+ }
+ 
+ .noshowingForm,
+ .noshowingName {
+     display: none;
+ }
+ 
+ .showing {
+     text-align: center;
+     font-size: 50px;
+     margin: 0 0 0 0;
+     display: block;
+ }
+ 
+ .clock {
+     text-align: center;
+     font-size: 50px;
+     font-style: oblique 40deg;
+ }
+ 
+ .main-board {
+     display: flex;
+     justify-content: space-evenly;
+     height: 100vh;
+     flex-wrap: wrap;
+ }
+ 
+ .sub-board {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .noshowingForm>input {
+     height: 40px;
+ }
+ 
+ .verticalLine {
+     border-left: 1px solid var(--main-color);
+ }
+ 
+ .horizonLine {
+     border-bottom: 1px solid var(--main-color);
+ }
+ 
+ .finishedJobs {
+     background-color: black;
+ }
+ 
+ .overlineText {
+     text-decoration: line-through;
+     font-style: oblique 40deg;
+ }
+ 
+ .clear-btn {
+     height: 80px;
+     width: 300px;
+     font-size: 40px;
+     color: #6E6A6A;
+     position: relative;
+     top: -30px;
+ }
+ 
+ .bgImage {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+ }

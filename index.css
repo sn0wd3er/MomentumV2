@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Hi+Melody&display=swap');
 * {
-    color: white;
-    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Handlee', cursive;
+    color: rgb(255, 164, 164);
 }
 
 @keyframes finish {
@@ -49,7 +49,7 @@ input::placeholder {
 }
 
 input:focus {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid red;
 }
 
 h3 {
@@ -64,7 +64,6 @@ button {
     height: 35px;
     width: 100px;
     margin: 10px 20px;
-    color: rgba(255, 255, 255, 0.9);
     font-size: 25px;
     background-color: rgba(247, 239, 239, 0);
     border-radius: 10px;
@@ -73,10 +72,12 @@ button {
 
 button:hover {
     transform: scale(1.1, 1.1);
+    border: 1px solid red;
 }
 
 ul li {
     font-size: 35px;
+    list-style: square;
 }
 
 .noshowingForm,
@@ -100,7 +101,7 @@ ul li {
 .main-board {
     display: flex;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 100%;
     flex-wrap: wrap;
 }
 
@@ -134,7 +135,6 @@ ul li {
     height: 80px;
     width: 300px;
     font-size: 40px;
-    color: rgba(255, 255, 255, 0.9);
     position: relative;
     top: -30px;
 }
@@ -150,6 +150,6 @@ ul li {
 
 .finish--ul {
     animation-name: finish;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
